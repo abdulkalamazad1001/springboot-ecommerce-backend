@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ecommerce-api
+  data:
+    mongodb:
+      # If you are running MongoDB locally on default port
+      uri: mongodb://localhost:27017/ecommerce_db
+      database: ecommerce_db
+
+server:
+  port: 8080
